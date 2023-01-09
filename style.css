@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul:#30358C;
+    --preto: #010101;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: var(--azul);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+nav,
+select{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 20px 40px;
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.imagem_logo{
+    width: 200px;
+    margin-right: 16px;
+}
+
+main{
+    margin-top: 80px;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+#produtos{
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    height: 250px;
+}
+
+.card p{
+    margin-bottom: 20px !important;
+}
+
+.favorito{
+    position: absolute;
+    width: 48px;
+    top: 20px;
+    right: 20px;
+}
+
+.full{
+    background-color: var(--azul);
+    padding: 80px;
+}
+
+.full h3{
+    color: #FFFFFF;
+}
+
+#novidades{
+    display: flex;
+    justify-content: center;
+}
+
+.form_lead input{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+}
+
+.form_lead button{
+    background-color: var(--preto);
+    border: 1px solid var(--preto);
+    color: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sobre{
+    margin: 24px;
+}
+
+footer{
+    position: relative;
+    margin-top: 40px;
+    background-color: var(--preto);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.topo{
+    width: 40px;
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+}
